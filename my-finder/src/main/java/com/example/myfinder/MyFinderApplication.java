@@ -7,6 +7,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication(exclude = {SecurityAutoConfiguration.class })
 @EnableEurekaClient
+
 public class MyFinderApplication {
 
 	public static void main(String[] args) {
