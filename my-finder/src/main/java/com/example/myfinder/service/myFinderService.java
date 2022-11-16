@@ -83,7 +83,7 @@ public class myFinderService {
     }
 
     @SuppressWarnings("unused")
-    private String errorCallBack(){
+    private String errorCallBack( String title){
         return "Oups.....  ";
     }
 
